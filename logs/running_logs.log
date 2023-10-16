@@ -1,0 +1,429 @@
+[2023-10-07 21:09:01,451:INFO: main: Welcome to our customer log]
+[2023-10-14 14:23:01,937:INFO: main: Welcome to our customer log]
+[2023-10-14 14:23:10,871:INFO: main: Welcome to our custom log]
+[2023-10-14 17:48:48,329:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-14 17:48:49,957:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-14 17:48:50,030:INFO: common: created directory at: artifacts]
+[2023-10-14 17:48:50,034:INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-14 17:48:50,038:INFO: 3776208973: Downloading Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-14 17:50:16,342:INFO: 3776208973: Downloaded Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-14 20:57:11,727:INFO: main: >>>>>>> stageData Ingestion Stage started <<<<<<<<<<<<]
+[2023-10-14 20:57:11,753:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-14 20:57:11,756:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-14 20:57:11,758:INFO: common: created directory at: artifacts]
+[2023-10-14 20:57:11,759:INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-14 20:57:11,760:INFO: data_ingestion: Downloading Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-14 20:58:57,710:INFO: data_ingestion: Downloaded Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-14 20:59:19,398:INFO: main: >>>>>>>>stage Data Ingestion Stage completed <<<<<<<<<<<]
+[2023-10-14 23:21:58,700:INFO: main: >>>>>>> stageData Ingestion Stage started <<<<<<<<<<<<]
+[2023-10-14 23:21:58,740:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-14 23:21:58,790:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-14 23:21:58,806:INFO: common: created directory at: artifacts]
+[2023-10-14 23:21:58,811:INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-14 23:21:58,811:INFO: data_ingestion: Downloading Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-14 23:23:37,407:INFO: data_ingestion: Downloaded Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-14 23:24:02,350:INFO: main: >>>>>>>>stage Data Ingestion Stage completed <<<<<<<<<<<]
+[2023-10-14 23:24:02,350:INFO: main: ******************]
+[2023-10-14 23:24:02,350:INFO: main: >>>>>>>>>> stage Prepare base model started <<<<<<<<<<<<<]
+[2023-10-14 23:24:02,354:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-14 23:24:02,354:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-14 23:24:02,358:INFO: common: created directory at: artifacts]
+[2023-10-14 23:24:02,358:ERROR: main: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config']
+Traceback (most recent call last):
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\main.py", line 24, in <module>
+    obj.main()
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\src\cnnClassifier\pipeline\stage_02_prepare_model.py", line 23, in main
+    raise e
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\src\cnnClassifier\pipeline\stage_02_prepare_model.py", line 18, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config'
+[2023-10-15 08:57:48,406:INFO: main: >>>>>>> stageData Ingestion Stage started <<<<<<<<<<<<]
+[2023-10-15 08:57:48,422:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 08:57:48,443:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 08:57:48,463:INFO: common: created directory at: artifacts]
+[2023-10-15 08:57:48,464:INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-15 08:57:48,465:INFO: data_ingestion: Downloading Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-15 08:58:51,779:INFO: data_ingestion: Downloaded Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-15 08:59:20,454:INFO: main: >>>>>>>>stage Data Ingestion Stage completed <<<<<<<<<<<]
+[2023-10-15 08:59:20,454:INFO: main: ******************]
+[2023-10-15 08:59:20,455:INFO: main: >>>>>>>>>> stage Prepare base model started <<<<<<<<<<<<<]
+[2023-10-15 08:59:20,456:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 08:59:20,457:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 08:59:20,458:INFO: common: created directory at: artifacts]
+[2023-10-15 08:59:20,458:ERROR: main: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config']
+Traceback (most recent call last):
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\main.py", line 24, in <module>
+    obj.main()
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\src\cnnClassifier\pipeline\stage_02_prepare_model.py", line 23, in main
+    raise e
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\src\cnnClassifier\pipeline\stage_02_prepare_model.py", line 18, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config'
+[2023-10-15 09:02:56,015:INFO: main: >>>>>>> stageData Ingestion Stage started <<<<<<<<<<<<]
+[2023-10-15 09:02:56,017:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 09:02:56,019:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 09:02:56,022:INFO: common: created directory at: artifacts]
+[2023-10-15 09:02:56,023:INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-15 09:02:56,024:INFO: data_ingestion: Downloading Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-15 09:03:59,632:INFO: data_ingestion: Downloaded Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-15 09:04:23,361:INFO: main: >>>>>>>>stage Data Ingestion Stage completed <<<<<<<<<<<]
+[2023-10-15 09:04:23,361:INFO: main: ******************]
+[2023-10-15 09:04:23,362:INFO: main: >>>>>>>>>> stage Prepare base model started <<<<<<<<<<<<<]
+[2023-10-15 09:04:23,363:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 09:04:23,365:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 09:04:23,366:INFO: common: created directory at: artifacts]
+[2023-10-15 09:04:23,530:ERROR: main: "'ConfigBox' object has no attribute 'prepare_base_model'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'prepare_base_model'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'prepare_base_model'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'prepare_base_model'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'prepare_base_model'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'prepare_base_model'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'prepare_base_model'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'prepare_base_model'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\main.py", line 24, in <module>
+    obj.main()
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\src\cnnClassifier\pipeline\stage_02_prepare_model.py", line 23, in main
+    raise e
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\src\cnnClassifier\pipeline\stage_02_prepare_model.py", line 18, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\src\cnnClassifier\config\configuration.py", line 35, in get_prepare_base_model_config
+    config = self.config.prepare_base_model
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'prepare_base_model'"
+[2023-10-15 09:23:06,546:INFO: main: >>>>>>> stageData Ingestion Stage started <<<<<<<<<<<<]
+[2023-10-15 09:23:06,561:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 09:23:06,573:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 09:23:06,607:INFO: common: created directory at: artifacts]
+[2023-10-15 09:23:06,608:INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-15 09:23:06,608:INFO: data_ingestion: Downloading Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-15 09:25:01,321:INFO: data_ingestion: Downloaded Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-15 09:25:22,946:INFO: main: >>>>>>>>stage Data Ingestion Stage completed <<<<<<<<<<<]
+[2023-10-15 09:25:22,946:INFO: main: ******************]
+[2023-10-15 09:25:22,946:INFO: main: >>>>>>>>>> stage Prepare base model started <<<<<<<<<<<<<]
+[2023-10-15 09:25:22,948:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 09:25:22,949:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 09:25:22,949:INFO: common: created directory at: artifacts]
+[2023-10-15 09:25:22,950:INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-15 09:25:22,987:ERROR: main: "'ConfigBox' object has no attribute 'inlcude_top'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'INLCUDE_TOP'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'INLCUDE_TOP'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'INLCUDE_TOP'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'INLCUDE_TOP'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'inlcude_top'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'inlcude_top'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'inlcude_top'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\main.py", line 24, in <module>
+    obj.main()
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\src\cnnClassifier\pipeline\stage_02_prepare_model.py", line 23, in main
+    raise e
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\src\cnnClassifier\pipeline\stage_02_prepare_model.py", line 18, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\src\cnnClassifier\config\configuration.py", line 45, in get_prepare_base_model_config
+    params_include_top=self.params.INLCUDE_TOP,
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'inlcude_top'"
+[2023-10-15 09:28:25,025:INFO: main: >>>>>>> stageData Ingestion Stage started <<<<<<<<<<<<]
+[2023-10-15 09:28:25,037:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 09:28:25,049:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 09:28:25,087:INFO: common: created directory at: artifacts]
+[2023-10-15 09:28:25,095:INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-15 09:28:25,104:INFO: data_ingestion: Downloading Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-15 09:31:01,902:INFO: data_ingestion: Downloaded Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-15 09:31:30,421:INFO: main: >>>>>>>>stage Data Ingestion Stage completed <<<<<<<<<<<]
+[2023-10-15 09:31:30,423:INFO: main: ******************]
+[2023-10-15 09:31:30,423:INFO: main: >>>>>>>>>> stage Prepare base model started <<<<<<<<<<<<<]
+[2023-10-15 09:31:30,425:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 09:31:30,427:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 09:31:30,428:INFO: common: created directory at: artifacts]
+[2023-10-15 09:31:30,429:INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-15 09:31:46,281:WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-15 09:31:46,990:ERROR: main: ('Keyword argument not understood:', 'input')]
+Traceback (most recent call last):
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\main.py", line 24, in <module>
+    obj.main()
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\src\cnnClassifier\pipeline\stage_02_prepare_model.py", line 23, in main
+    raise e
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\src\cnnClassifier\pipeline\stage_02_prepare_model.py", line 21, in main
+    prepare_base_model.update_base_model()
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\src\cnnClassifier\components\prepare_base_model.py", line 50, in update_base_model
+    self.full_model = self._prepare_full_model(
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\src\cnnClassifier\components\prepare_base_model.py", line 36, in _prepare_full_model
+    full_model = tf.keras.models.Model(
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\Kidney-disease\lib\site-packages\tensorflow\python\trackable\base.py", line 205, in _method_wrapper
+    result = method(self, *args, **kwargs)
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\Kidney-disease\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\Kidney-disease\lib\site-packages\keras\utils\generic_utils.py", line 514, in validate_kwargs
+    raise TypeError(error_message, kwarg)
+TypeError: ('Keyword argument not understood:', 'input')
+[2023-10-15 10:00:51,661:INFO: main: >>>>>>> stageData Ingestion Stage started <<<<<<<<<<<<]
+[2023-10-15 10:00:51,680:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 10:00:51,709:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 10:00:51,733:INFO: common: created directory at: artifacts]
+[2023-10-15 10:00:51,734:INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-15 10:00:51,734:INFO: data_ingestion: Downloading Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-15 10:02:03,523:INFO: data_ingestion: Downloaded Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-15 10:02:24,872:INFO: main: >>>>>>>>stage Data Ingestion Stage completed <<<<<<<<<<<]
+[2023-10-15 10:02:24,873:INFO: main: ******************]
+[2023-10-15 10:02:24,873:INFO: main: >>>>>>>>>> stage Prepare base model started <<<<<<<<<<<<<]
+[2023-10-15 10:02:24,874:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 10:02:24,876:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 10:02:24,876:INFO: common: created directory at: artifacts]
+[2023-10-15 10:02:24,876:INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-15 10:02:27,354:WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-15 10:02:27,984:ERROR: main: Missing required positional argument]
+Traceback (most recent call last):
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\main.py", line 24, in <module>
+    obj.main()
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\src\cnnClassifier\pipeline\stage_02_prepare_model.py", line 23, in main
+    raise e
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\src\cnnClassifier\pipeline\stage_02_prepare_model.py", line 21, in main
+    prepare_base_model.update_base_model()
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\src\cnnClassifier\components\prepare_base_model.py", line 50, in update_base_model
+    self.full_model = self._prepare_full_model(
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\src\cnnClassifier\components\prepare_base_model.py", line 42, in _prepare_full_model
+    loss = tf.keras.losses.categorical_crossentropy(),
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\Kidney-disease\lib\site-packages\tensorflow\python\util\traceback_utils.py", line 153, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\Kidney-disease\lib\site-packages\tensorflow\python\util\dispatch.py", line 1170, in op_dispatch_handler
+    result = api_dispatcher.Dispatch(args, kwargs)
+TypeError: Missing required positional argument
+[2023-10-15 10:05:44,129:INFO: main: >>>>>>> stageData Ingestion Stage started <<<<<<<<<<<<]
+[2023-10-15 10:05:44,143:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 10:05:44,205:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 10:05:44,221:INFO: common: created directory at: artifacts]
+[2023-10-15 10:05:44,222:INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-15 10:05:44,223:INFO: data_ingestion: Downloading Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-15 10:06:54,801:INFO: data_ingestion: Downloaded Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-15 10:07:16,135:INFO: main: >>>>>>>>stage Data Ingestion Stage completed <<<<<<<<<<<]
+[2023-10-15 10:07:16,136:INFO: main: ******************]
+[2023-10-15 10:07:16,136:INFO: main: >>>>>>>>>> stage Prepare base model started <<<<<<<<<<<<<]
+[2023-10-15 10:07:16,137:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 10:07:16,138:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 10:07:16,139:INFO: common: created directory at: artifacts]
+[2023-10-15 10:07:16,139:INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-15 10:07:18,524:WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-15 10:07:19,530:INFO: main: >>>>>>>>>>> stage Prepare base model completed <<<<<<<<<<<<<]
+[2023-10-15 10:56:59,915:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 10:57:00,319:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 10:57:00,382:INFO: common: created directory at: artifacts]
+[2023-10-15 10:57:00,392:INFO: common: created directory at: artifacts\training]
+[2023-10-15 10:57:50,940:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 10:57:50,943:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 10:57:50,944:INFO: common: created directory at: artifacts]
+[2023-10-15 10:57:50,946:INFO: common: created directory at: artifacts\training]
+[2023-10-15 11:00:13,905:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 11:00:13,907:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 11:00:13,909:INFO: common: created directory at: artifacts]
+[2023-10-15 11:00:13,910:INFO: common: created directory at: artifacts\training]
+[2023-10-15 11:42:29,953:INFO: main: >>>>>>> stageData Ingestion Stage started <<<<<<<<<<<<]
+[2023-10-15 11:42:30,027:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 11:42:30,042:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 11:42:30,067:INFO: common: created directory at: artifacts]
+[2023-10-15 11:42:30,067:INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-15 11:42:30,069:INFO: data_ingestion: Downloading Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-15 11:42:38,596:INFO: data_ingestion: Downloaded Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-15 11:42:40,065:INFO: main: >>>>>>>>stage Data Ingestion Stage completed <<<<<<<<<<<]
+[2023-10-15 11:42:40,066:INFO: main: ******************]
+[2023-10-15 11:42:40,066:INFO: main: >>>>>>>>>> stage Prepare base model started <<<<<<<<<<<<<]
+[2023-10-15 11:42:40,069:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 11:42:40,073:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 11:42:40,075:INFO: common: created directory at: artifacts]
+[2023-10-15 11:42:40,076:INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-15 11:42:41,684:WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-15 11:42:43,024:INFO: main: >>>>>>>>>>> stage Prepare base model completed <<<<<<<<<<<<<]
+[2023-10-15 11:42:43,024:INFO: main: ****************************]
+[2023-10-15 11:42:43,024:INFO: main: >>>>>>>>>>> stage Training started <<<<<<<<<<<]
+[2023-10-15 11:42:43,025:ERROR: main: ModelTrainingPipeline.main() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\main.py", line 41, in <module>
+    obj.main()
+TypeError: ModelTrainingPipeline.main() missing 1 required positional argument: 'self'
+[2023-10-15 11:45:19,878:INFO: main: >>>>>>> stageData Ingestion Stage started <<<<<<<<<<<<]
+[2023-10-15 11:45:19,880:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 11:45:19,899:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 11:45:19,921:INFO: common: created directory at: artifacts]
+[2023-10-15 11:45:19,922:INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-15 11:45:19,922:INFO: data_ingestion: Downloading Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-15 11:45:28,665:INFO: data_ingestion: Downloaded Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-15 11:45:29,991:INFO: main: >>>>>>>>stage Data Ingestion Stage completed <<<<<<<<<<<]
+[2023-10-15 11:45:29,991:INFO: main: ******************]
+[2023-10-15 11:45:29,991:INFO: main: >>>>>>>>>> stage Prepare base model started <<<<<<<<<<<<<]
+[2023-10-15 11:45:29,994:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 11:45:29,996:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 11:45:29,997:INFO: common: created directory at: artifacts]
+[2023-10-15 11:45:29,998:INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-15 11:45:31,380:WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-15 11:45:32,288:INFO: main: >>>>>>>>>>> stage Prepare base model completed <<<<<<<<<<<<<]
+[2023-10-15 11:45:32,288:INFO: main: ****************************]
+[2023-10-15 11:45:32,289:INFO: main: >>>>>>>>>>> stage Training started <<<<<<<<<<<]
+[2023-10-15 11:45:32,290:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 11:45:32,291:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 11:45:32,292:INFO: common: created directory at: artifacts]
+[2023-10-15 11:45:32,292:ERROR: main: 'ConfigurationManager' object has no attribute 'get_training_config']
+Traceback (most recent call last):
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\main.py", line 41, in <module>
+    model_trainer.main()
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\src\cnnClassifier\pipeline\stage_03_model_training.py", line 13, in main
+    training_config = config.get_training_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_training_config'
+[2023-10-15 12:55:00,689:INFO: main: >>>>>>> stageData Ingestion Stage started <<<<<<<<<<<<]
+[2023-10-15 12:55:00,741:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 12:55:00,775:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 12:55:00,805:INFO: common: created directory at: artifacts]
+[2023-10-15 12:55:00,806:INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-15 12:55:00,806:INFO: data_ingestion: Downloading Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-15 12:55:11,960:INFO: data_ingestion: Downloaded Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-15 12:55:13,846:INFO: main: >>>>>>>>stage Data Ingestion Stage completed <<<<<<<<<<<]
+[2023-10-15 12:55:13,908:INFO: main: ******************]
+[2023-10-15 12:55:13,908:INFO: main: >>>>>>>>>> stage Prepare base model started <<<<<<<<<<<<<]
+[2023-10-15 12:55:13,910:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 12:55:13,912:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 12:55:13,912:INFO: common: created directory at: artifacts]
+[2023-10-15 12:55:13,913:ERROR: main: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config']
+Traceback (most recent call last):
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\main.py", line 26, in <module>
+    obj.main()
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\src\cnnClassifier\pipeline\stage_02_prepare_model.py", line 23, in main
+    raise e
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\src\cnnClassifier\pipeline\stage_02_prepare_model.py", line 18, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config'
+[2023-10-15 12:58:18,730:INFO: main: >>>>>>> stageData Ingestion Stage started <<<<<<<<<<<<]
+[2023-10-15 12:58:18,732:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 12:58:18,740:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 12:58:18,762:INFO: common: created directory at: artifacts]
+[2023-10-15 12:58:18,763:INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-15 12:58:18,764:INFO: data_ingestion: Downloading Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-15 12:58:25,053:INFO: data_ingestion: Downloaded Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-15 12:58:25,945:INFO: main: >>>>>>>>stage Data Ingestion Stage completed <<<<<<<<<<<]
+[2023-10-15 12:58:25,945:INFO: main: ******************]
+[2023-10-15 12:58:25,945:INFO: main: >>>>>>>>>> stage Prepare base model started <<<<<<<<<<<<<]
+[2023-10-15 12:58:25,947:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 12:58:25,948:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 12:58:25,949:INFO: common: created directory at: artifacts]
+[2023-10-15 12:58:25,997:INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-15 12:58:28,502:WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-15 12:58:29,704:INFO: main: >>>>>>>>>>> stage Prepare base model completed <<<<<<<<<<<<<]
+[2023-10-15 12:58:29,704:INFO: main: ****************************]
+[2023-10-15 12:58:29,705:INFO: main: >>>>>>>>>>> stage Training started <<<<<<<<<<<]
+[2023-10-15 12:58:29,706:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 12:58:29,707:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 12:58:29,708:INFO: common: created directory at: artifacts]
+[2023-10-15 12:58:29,709:INFO: common: created directory at: artifacts\training]
+[2023-10-15 12:58:30,322:ERROR: main: [WinError 3] The system cannot find the path specified: 'artifacts\\data_ingestion\\kidney_ct_scan']
+Traceback (most recent call last):
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\main.py", line 41, in <module>
+    model_trainer.main()
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\src\cnnClassifier\pipeline\stage_03_model_training.py", line 16, in main
+    training.train_valid_generator()
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\src\cnnClassifier\components\model_training.py", line 36, in train_valid_generator
+    self.valid_generator = valid_datagenerator.flow_from_directory(
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\Kidney-disease\lib\site-packages\keras\preprocessing\image.py", line 1648, in flow_from_directory
+    return DirectoryIterator(
+  File "E:\Github\kidney_deep_learning\Kidney-disease-mlflow\Kidney-disease\lib\site-packages\keras\preprocessing\image.py", line 563, in __init__
+    for subdir in sorted(os.listdir(directory)):
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'artifacts\\data_ingestion\\kidney_ct_scan'
+[2023-10-15 13:02:20,134:INFO: main: >>>>>>> stageData Ingestion Stage started <<<<<<<<<<<<]
+[2023-10-15 13:02:20,147:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 13:02:20,189:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 13:02:20,215:INFO: common: created directory at: artifacts]
+[2023-10-15 13:02:20,216:INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-15 13:02:20,216:INFO: data_ingestion: Downloading Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-15 13:02:26,251:INFO: data_ingestion: Downloaded Data from https://drive.google.com/file/d/1tiKrxbgquVsl03jiKlOkZQW43CIyr4HJ/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-15 13:02:27,266:INFO: main: >>>>>>>>stage Data Ingestion Stage completed <<<<<<<<<<<]
+[2023-10-15 13:02:27,267:INFO: main: ******************]
+[2023-10-15 13:02:27,267:INFO: main: >>>>>>>>>> stage Prepare base model started <<<<<<<<<<<<<]
+[2023-10-15 13:02:27,268:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 13:02:27,270:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 13:02:27,270:INFO: common: created directory at: artifacts]
+[2023-10-15 13:02:27,270:INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-15 13:02:29,698:WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-15 13:02:30,524:INFO: main: >>>>>>>>>>> stage Prepare base model completed <<<<<<<<<<<<<]
+[2023-10-15 13:02:30,524:INFO: main: ****************************]
+[2023-10-15 13:02:30,525:INFO: main: >>>>>>>>>>> stage Training started <<<<<<<<<<<]
+[2023-10-15 13:02:30,526:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-15 13:02:30,527:INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-15 13:02:30,528:INFO: common: created directory at: artifacts]
+[2023-10-15 13:02:30,528:INFO: common: created directory at: artifacts\training]
+[2023-10-15 13:04:02,022:INFO: main: >>>>>>>>>>>>>>> stage Training completed <<<<<<<<<<<<<]
