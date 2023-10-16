@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Github/kidney_deep_learning/kidney_tumor_classification_deep_learning/mlruns/0/55199fea284b4b3a89ff87f493aec4aa/artifacts
+end_time: 1697463766230
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 55199fea284b4b3a89ff87f493aec4aa
+run_name: trusting-steed-12
+run_uuid: 55199fea284b4b3a89ff87f493aec4aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697463733269
+status: 3
+tags: []
+user_id: user

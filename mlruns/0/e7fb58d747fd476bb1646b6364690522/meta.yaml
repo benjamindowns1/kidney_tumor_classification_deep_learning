@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Github/kidney_deep_learning/kidney_tumor_classification_deep_learning/mlruns/0/e7fb58d747fd476bb1646b6364690522/artifacts
+end_time: 1697462410242
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e7fb58d747fd476bb1646b6364690522
+run_name: wise-gull-225
+run_uuid: e7fb58d747fd476bb1646b6364690522
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697462371961
+status: 3
+tags: []
+user_id: user
