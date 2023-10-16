@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Github/kidney_deep_learning/kidney_tumor_classification_deep_learning/mlruns/0/f03976cc9e2b4cb6a26680deb68032d2/artifacts
+end_time: 1697464345022
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f03976cc9e2b4cb6a26680deb68032d2
+run_name: handsome-eel-355
+run_uuid: f03976cc9e2b4cb6a26680deb68032d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697464306170
+status: 3
+tags: []
+user_id: user
